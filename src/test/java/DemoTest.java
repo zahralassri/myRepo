@@ -49,9 +49,9 @@ public class DemoTest {
 
     @Test
     void testequalsInt() {
-        Integer a=10;
+        Integer a=100;
         // we can't use equqls to compare primitifs types
-        assertTrue(a.equals(10));
+        assertTrue(a.equals(100));
     }
 
 }
