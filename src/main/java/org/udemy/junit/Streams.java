@@ -93,6 +93,7 @@ public class Streams {
         System.out.println(salary);
         double averagesalary= persons.stream().mapToDouble(e->e.getSalary()).average().getAsDouble();
         System.out.println(averagesalary);
+        System.out.println("test....");
 
     }
 
