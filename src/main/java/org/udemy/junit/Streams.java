@@ -94,7 +94,7 @@ public class Streams {
         double averagesalary= persons.stream().mapToDouble(e->e.getSalary()).average().getAsDouble();
         System.out.println(averagesalary);
         System.out.println("test....");
-
+        System.out.println("testing en cours....");
     }
 
 
