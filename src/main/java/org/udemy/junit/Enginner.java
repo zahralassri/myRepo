@@ -24,6 +24,20 @@ public class Enginner extends Person{
                 "Domaine='" + Domaine + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Enginner)) return false;
+        if (!super.equals(o)) return false;
+        Enginner enginner = (Enginner) o;
+        return Objects.equals(getDomaine(), enginner.getDomaine());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getDomaine());
+    }
 }
 
 
