@@ -96,7 +96,7 @@ public class Streams {
         System.out.println("test....");
         System.out.println("testing en cours....");
         System.out.println("testing en cours streams....");
-
+        System.out.println("testing ends....");
     }
 
 
